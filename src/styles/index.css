@@ -1,11 +1,31 @@
-/* 
+.container{
+    background-color: beige;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px 
+}
+.container_input{
+    margin-bottom: 20px;
+    
+}
+Input{
+    padding: 3px;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    
+    
+}
+li{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 5px 20px;
+    margin-bottom: 5px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
